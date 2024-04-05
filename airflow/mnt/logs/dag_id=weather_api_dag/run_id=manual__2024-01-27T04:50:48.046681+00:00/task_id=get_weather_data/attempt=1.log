@@ -1,0 +1,15 @@
+[2024-01-27T04:50:49.086+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_api_dag.get_weather_data manual__2024-01-27T04:50:48.046681+00:00 [queued]>
+[2024-01-27T04:50:49.092+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_api_dag.get_weather_data manual__2024-01-27T04:50:48.046681+00:00 [queued]>
+[2024-01-27T04:50:49.092+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 1
+[2024-01-27T04:50:49.106+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): get_weather_data> on 2024-01-27 04:50:48.046681+00:00
+[2024-01-27T04:50:49.113+0000] {standard_task_runner.py:60} INFO - Started process 4966 to run task
+[2024-01-27T04:50:49.115+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'weather_api_dag', 'get_weather_data', 'manual__2024-01-27T04:50:48.046681+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/weather_api__dag.py', '--cfg-path', '/tmp/tmproi1f0ei']
+[2024-01-27T04:50:49.117+0000] {standard_task_runner.py:88} INFO - Job 12: Subtask get_weather_data
+[2024-01-27T04:50:49.167+0000] {task_command.py:423} INFO - Running <TaskInstance: weather_api_dag.get_weather_data manual__2024-01-27T04:50:48.046681+00:00 [running]> on host d24a8cdd2842
+[2024-01-27T04:50:49.282+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='weather_api_dag' AIRFLOW_CTX_TASK_ID='get_weather_data' AIRFLOW_CTX_EXECUTION_DATE='2024-01-27T04:50:48.046681+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-27T04:50:48.046681+00:00'
+[2024-01-27T04:50:49.346+0000] {logging_mixin.py:188} INFO - https://api.openweathermap.org/data/2.5/weather?q=bangkok&appid=72832d0f2a3eed2b2cc39bf1c7c4f9d5&units=metric
+[2024-01-27T04:50:49.346+0000] {logging_mixin.py:188} INFO - {'coord': {'lon': 100.5167, 'lat': 13.75}, 'weather': [{'id': 802, 'main': 'Clouds', 'description': 'scattered clouds', 'icon': '03d'}], 'base': 'stations', 'main': {'temp': 30.12, 'feels_like': 31.39, 'temp_min': 28.94, 'temp_max': 30.51, 'pressure': 1018, 'humidity': 51}, 'visibility': 10000, 'wind': {'speed': 2.66, 'deg': 92, 'gust': 2.87}, 'clouds': {'all': 48}, 'dt': 1706330490, 'sys': {'type': 2, 'id': 2091537, 'country': 'TH', 'sunrise': 1706312743, 'sunset': 1706354100}, 'timezone': 25200, 'id': 1609350, 'name': 'Bangkok', 'cod': 200}
+[2024-01-27T04:50:49.347+0000] {python.py:201} INFO - Done. Returned value was: None
+[2024-01-27T04:50:49.372+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=weather_api_dag, task_id=get_weather_data, execution_date=20240127T045048, start_date=20240127T045049, end_date=20240127T045049
+[2024-01-27T04:50:49.419+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-01-27T04:50:49.451+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

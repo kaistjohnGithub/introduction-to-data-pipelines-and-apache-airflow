@@ -1,0 +1,59 @@
+[2024-03-16T02:58:46.737+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_dbt_dag.stg_weathers.run scheduled__2024-03-15T00:00:00+00:00 [queued]>
+[2024-03-16T02:58:46.746+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_dbt_dag.stg_weathers.run scheduled__2024-03-15T00:00:00+00:00 [queued]>
+[2024-03-16T02:58:46.746+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 1
+[2024-03-16T02:58:46.771+0000] {taskinstance.py:2192} INFO - Executing <Task(DbtRunLocalOperator): stg_weathers.run> on 2024-03-15 00:00:00+00:00
+[2024-03-16T02:58:46.780+0000] {standard_task_runner.py:60} INFO - Started process 916 to run task
+[2024-03-16T02:58:46.786+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'weather_dbt_dag', 'stg_weathers.run', 'scheduled__2024-03-15T00:00:00+00:00', '--job-id', '482', '--raw', '--subdir', 'DAGS_FOLDER/weather_dbt_dag.py', '--cfg-path', '/tmp/tmp9gpk5ri0']
+[2024-03-16T02:58:46.789+0000] {standard_task_runner.py:88} INFO - Job 482: Subtask stg_weathers.run
+[2024-03-16T02:58:46.863+0000] {task_command.py:423} INFO - Running <TaskInstance: weather_dbt_dag.stg_weathers.run scheduled__2024-03-15T00:00:00+00:00 [running]> on host a084c6a0d68a
+[2024-03-16T02:58:46.980+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='weather_dbt_dag' AIRFLOW_CTX_TASK_ID='stg_weathers.run' AIRFLOW_CTX_EXECUTION_DATE='2024-03-15T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-15T00:00:00+00:00'
+[2024-03-16T02:58:46.981+0000] {local.py:202} INFO - Cloning project to writable temp directory /tmp/tmp9hj_fjvh from /opt/airflow/dbt/weather
+[2024-03-16T02:58:46.995+0000] {base.py:83} INFO - Using connection ID 'my_***_conn' for task execution.
+[2024-03-16T02:58:46.995+0000] {base.py:171} INFO - Using real values for profile weather
+[2024-03-16T02:58:46.998+0000] {config.py:278} INFO - Creating temporary profiles.yml at /tmp/tmpp_is2kox/profiles.yml with the following contents:
+weather:
+    outputs:
+        dev:
+            dbname: ***
+            host: mydb
+            password: '{{ env_var(''COSMOS_CONN_POSTGRES_PASSWORD'') }}'
+            port: 5432
+            schema: dbt_gai
+            type: ***
+            user: ***
+    target: dev
+
+[2024-03-16T02:58:46.998+0000] {local.py:235} INFO - Trying to run the command:
+ ['/home/***/.local/bin/dbt', 'run', '--models', 'stg_weathers', '--profiles-dir', '/tmp/tmpp_is2kox', '--profile', 'weather', '--target', 'dev']
+From /tmp/tmp9hj_fjvh
+[2024-03-16T02:58:46.999+0000] {local.py:236} INFO - Using environment variables keys: dict_keys(['AIRFLOW_CTX_DAG_OWNER', 'AIRFLOW_CTX_DAG_ID', 'AIRFLOW_CTX_TASK_ID', 'AIRFLOW_CTX_EXECUTION_DATE', 'AIRFLOW_CTX_TRY_NUMBER', 'AIRFLOW_CTX_DAG_RUN_ID', 'COSMOS_CONN_POSTGRES_PASSWORD'])
+[2024-03-16T02:58:47.000+0000] {subprocess.py:60} INFO - Tmp dir root location: 
+ /tmp
+[2024-03-16T02:58:47.001+0000] {subprocess.py:73} INFO - Running command: ['/home/***/.local/bin/dbt', 'run', '--models', 'stg_weathers', '--profiles-dir', '/tmp/tmpp_is2kox', '--profile', 'weather', '--target', 'dev']
+[2024-03-16T02:58:47.019+0000] {subprocess.py:84} INFO - Command output:
+[2024-03-16T02:58:51.740+0000] {subprocess.py:94} INFO - [0m02:58:51  Running with dbt=1.7.9
+[2024-03-16T02:58:52.317+0000] {subprocess.py:94} INFO - [0m02:58:52  Registered adapter: ***=1.7.9
+[2024-03-16T02:58:52.334+0000] {subprocess.py:94} INFO - [0m02:58:52  Unable to do partial parsing because saved manifest not found. Starting full parse.
+[2024-03-16T02:58:54.575+0000] {subprocess.py:94} INFO - [0m02:58:54  Found 5 models, 9 tests, 1 source, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[2024-03-16T02:58:54.576+0000] {subprocess.py:94} INFO - [0m02:58:54
+[2024-03-16T02:58:54.640+0000] {subprocess.py:94} INFO - [0m02:58:54  Concurrency: 1 threads (target='dev')
+[2024-03-16T02:58:54.641+0000] {subprocess.py:94} INFO - [0m02:58:54
+[2024-03-16T02:58:54.648+0000] {subprocess.py:94} INFO - [0m02:58:54  1 of 1 START sql view model dbt_gai.stg_weathers ............................... [RUN]
+[2024-03-16T02:58:54.777+0000] {subprocess.py:94} INFO - [0m02:58:54  1 of 1 OK created sql view model dbt_gai.stg_weathers .......................... [[32mCREATE VIEW[0m in 0.13s]
+[2024-03-16T02:58:54.789+0000] {subprocess.py:94} INFO - [0m02:58:54
+[2024-03-16T02:58:54.789+0000] {subprocess.py:94} INFO - [0m02:58:54  Finished running 1 view model in 0 hours 0 minutes and 0.21 seconds (0.21s).
+[2024-03-16T02:58:54.800+0000] {subprocess.py:94} INFO - [0m02:58:54
+[2024-03-16T02:58:54.800+0000] {subprocess.py:94} INFO - [0m02:58:54  [32mCompleted successfully[0m
+[2024-03-16T02:58:54.801+0000] {subprocess.py:94} INFO - [0m02:58:54
+[2024-03-16T02:58:54.801+0000] {subprocess.py:94} INFO - [0m02:58:54  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[2024-03-16T02:58:56.081+0000] {subprocess.py:98} INFO - Command exited with return code 0
+[2024-03-16T02:58:56.093+0000] {local.py:138} WARNING - Artifact schema version: https://schemas.getdbt.com/dbt/manifest/v11.json is above dbt-ol supported version 7. This might cause errors.
+[2024-03-16T02:58:56.097+0000] {local.py:252} INFO - Inlets: [Dataset(uri='postgres://mydb:5432/postgres.public.weathers', extra=None)]
+[2024-03-16T02:58:56.098+0000] {local.py:253} INFO - Outlets: [Dataset(uri='postgres://mydb:5432/postgres.dbt_gai.stg_weathers', extra=None)]
+[2024-03-16T02:58:56.098+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-03-16T02:58:56.129+0000] {dag.py:3820} INFO - Setting next_dagrun for weather_dbt_dag to 2024-03-16T00:00:00+00:00, run_after=2024-03-17T00:00:00+00:00
+[2024-03-16T02:58:56.181+0000] {local.py:371} INFO - [0m02:58:54  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[2024-03-16T02:58:56.184+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/models/baseoperator.py:1476 RemovedInAirflow3Warning: Passing 'execution_date' to 'TaskInstance.xcom_push()' is deprecated.
+[2024-03-16T02:58:56.228+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=weather_dbt_dag, task_id=stg_weathers.run, execution_date=20240315T000000, start_date=20240316T025846, end_date=20240316T025856
+[2024-03-16T02:58:56.270+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-16T02:58:56.291+0000] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check

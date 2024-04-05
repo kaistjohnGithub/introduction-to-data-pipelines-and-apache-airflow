@@ -1,0 +1,61 @@
+[2024-03-16T03:05:17.483+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_dbt_dag.my_second_dbt_model.test scheduled__2024-03-15T00:00:00+00:00 [queued]>
+[2024-03-16T03:05:17.492+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_dbt_dag.my_second_dbt_model.test scheduled__2024-03-15T00:00:00+00:00 [queued]>
+[2024-03-16T03:05:17.492+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 1
+[2024-03-16T03:05:17.510+0000] {taskinstance.py:2192} INFO - Executing <Task(DbtTestLocalOperator): my_second_dbt_model.test> on 2024-03-15 00:00:00+00:00
+[2024-03-16T03:05:17.518+0000] {standard_task_runner.py:60} INFO - Started process 1819 to run task
+[2024-03-16T03:05:17.521+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'weather_dbt_dag', 'my_second_dbt_model.test', 'scheduled__2024-03-15T00:00:00+00:00', '--job-id', '491', '--raw', '--subdir', 'DAGS_FOLDER/weather_dbt_dag.py', '--cfg-path', '/tmp/tmpnx3v_kjp']
+[2024-03-16T03:05:17.526+0000] {standard_task_runner.py:88} INFO - Job 491: Subtask my_second_dbt_model.test
+[2024-03-16T03:05:17.585+0000] {task_command.py:423} INFO - Running <TaskInstance: weather_dbt_dag.my_second_dbt_model.test scheduled__2024-03-15T00:00:00+00:00 [running]> on host a084c6a0d68a
+[2024-03-16T03:05:17.674+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='weather_dbt_dag' AIRFLOW_CTX_TASK_ID='my_second_dbt_model.test' AIRFLOW_CTX_EXECUTION_DATE='2024-03-15T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-15T00:00:00+00:00'
+[2024-03-16T03:05:17.675+0000] {local.py:202} INFO - Cloning project to writable temp directory /tmp/tmpfm6v0i3m from /opt/airflow/dbt/weather
+[2024-03-16T03:05:17.684+0000] {base.py:83} INFO - Using connection ID 'my_***_conn' for task execution.
+[2024-03-16T03:05:17.685+0000] {base.py:171} INFO - Using real values for profile weather
+[2024-03-16T03:05:17.687+0000] {config.py:278} INFO - Creating temporary profiles.yml at /tmp/tmpm466wlch/profiles.yml with the following contents:
+weather:
+    outputs:
+        dev:
+            dbname: ***
+            host: mydb
+            password: '{{ env_var(''COSMOS_CONN_POSTGRES_PASSWORD'') }}'
+            port: 5432
+            schema: dbt_gai
+            type: ***
+            user: ***
+    target: dev
+
+[2024-03-16T03:05:17.688+0000] {local.py:235} INFO - Trying to run the command:
+ ['/home/***/.local/bin/dbt', 'test', '--models', 'my_second_dbt_model', '--profiles-dir', '/tmp/tmpm466wlch', '--profile', 'weather', '--target', 'dev']
+From /tmp/tmpfm6v0i3m
+[2024-03-16T03:05:17.689+0000] {local.py:236} INFO - Using environment variables keys: dict_keys(['AIRFLOW_CTX_DAG_OWNER', 'AIRFLOW_CTX_DAG_ID', 'AIRFLOW_CTX_TASK_ID', 'AIRFLOW_CTX_EXECUTION_DATE', 'AIRFLOW_CTX_TRY_NUMBER', 'AIRFLOW_CTX_DAG_RUN_ID', 'COSMOS_CONN_POSTGRES_PASSWORD'])
+[2024-03-16T03:05:17.689+0000] {subprocess.py:60} INFO - Tmp dir root location: 
+ /tmp
+[2024-03-16T03:05:17.690+0000] {subprocess.py:73} INFO - Running command: ['/home/***/.local/bin/dbt', 'test', '--models', 'my_second_dbt_model', '--profiles-dir', '/tmp/tmpm466wlch', '--profile', 'weather', '--target', 'dev']
+[2024-03-16T03:05:17.704+0000] {subprocess.py:84} INFO - Command output:
+[2024-03-16T03:05:20.386+0000] {subprocess.py:94} INFO - [0m03:05:20  Running with dbt=1.7.9
+[2024-03-16T03:05:20.866+0000] {subprocess.py:94} INFO - [0m03:05:20  Registered adapter: ***=1.7.9
+[2024-03-16T03:05:20.883+0000] {subprocess.py:94} INFO - [0m03:05:20  Unable to do partial parsing because saved manifest not found. Starting full parse.
+[2024-03-16T03:05:22.412+0000] {subprocess.py:94} INFO - [0m03:05:22  Found 5 models, 9 tests, 1 source, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[2024-03-16T03:05:22.414+0000] {subprocess.py:94} INFO - [0m03:05:22
+[2024-03-16T03:05:22.466+0000] {subprocess.py:94} INFO - [0m03:05:22  Concurrency: 1 threads (target='dev')
+[2024-03-16T03:05:22.467+0000] {subprocess.py:94} INFO - [0m03:05:22
+[2024-03-16T03:05:22.475+0000] {subprocess.py:94} INFO - [0m03:05:22  1 of 2 START test not_null_my_second_dbt_model_id .............................. [RUN]
+[2024-03-16T03:05:22.527+0000] {subprocess.py:94} INFO - [0m03:05:22  1 of 2 PASS not_null_my_second_dbt_model_id .................................... [[32mPASS[0m in 0.05s]
+[2024-03-16T03:05:22.530+0000] {subprocess.py:94} INFO - [0m03:05:22  2 of 2 START test unique_my_second_dbt_model_id ................................ [RUN]
+[2024-03-16T03:05:22.555+0000] {subprocess.py:94} INFO - [0m03:05:22  2 of 2 PASS unique_my_second_dbt_model_id ...................................... [[32mPASS[0m in 0.03s]
+[2024-03-16T03:05:22.568+0000] {subprocess.py:94} INFO - [0m03:05:22
+[2024-03-16T03:05:22.570+0000] {subprocess.py:94} INFO - [0m03:05:22  Finished running 2 tests in 0 hours 0 minutes and 0.15 seconds (0.15s).
+[2024-03-16T03:05:22.584+0000] {subprocess.py:94} INFO - [0m03:05:22
+[2024-03-16T03:05:22.584+0000] {subprocess.py:94} INFO - [0m03:05:22  [32mCompleted successfully[0m
+[2024-03-16T03:05:22.586+0000] {subprocess.py:94} INFO - [0m03:05:22
+[2024-03-16T03:05:22.587+0000] {subprocess.py:94} INFO - [0m03:05:22  Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+[2024-03-16T03:05:23.783+0000] {subprocess.py:98} INFO - Command exited with return code 0
+[2024-03-16T03:05:23.793+0000] {local.py:138} WARNING - Artifact schema version: https://schemas.getdbt.com/dbt/manifest/v11.json is above dbt-ol supported version 7. This might cause errors.
+[2024-03-16T03:05:23.796+0000] {local.py:252} INFO - Inlets: [Dataset(uri='postgres://mydb:5432/postgres.dbt_gai.my_second_dbt_model', extra=None)]
+[2024-03-16T03:05:23.797+0000] {local.py:253} INFO - Outlets: []
+[2024-03-16T03:05:23.797+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-03-16T03:05:23.828+0000] {dag.py:3820} INFO - Setting next_dagrun for weather_dbt_dag to 2024-03-16T00:00:00+00:00, run_after=2024-03-17T00:00:00+00:00
+[2024-03-16T03:05:23.861+0000] {local.py:371} INFO - [0m03:05:22  Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+[2024-03-16T03:05:23.865+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/models/baseoperator.py:1476 RemovedInAirflow3Warning: Passing 'execution_date' to 'TaskInstance.xcom_push()' is deprecated.
+[2024-03-16T03:05:23.895+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=weather_dbt_dag, task_id=my_second_dbt_model.test, execution_date=20240315T000000, start_date=20240316T030517, end_date=20240316T030523
+[2024-03-16T03:05:23.928+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-16T03:05:23.947+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

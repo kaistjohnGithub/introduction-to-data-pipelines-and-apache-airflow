@@ -1,0 +1,21 @@
+[2024-04-05T06:28:01.671+0000] {processor.py:161} INFO - Started process (PID=61) to work on /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2024-04-05T06:28:01.689+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/play_with_airflow_connections_and_hooks.py for tasks to queue
+[2024-04-05T06:28:01.691+0000] {logging_mixin.py:188} INFO - [2024-04-05T06:28:01.691+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2024-04-05T06:28:01.722+0000] {processor.py:840} INFO - DAG(s) 'play_with_airflow_connections_and_hooks' retrieved from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2024-04-05T06:28:01.773+0000] {logging_mixin.py:188} INFO - [2024-04-05T06:28:01.773+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-05T06:28:01.819+0000] {logging_mixin.py:188} INFO - [2024-04-05T06:28:01.818+0000] {dag.py:3820} INFO - Setting next_dagrun for play_with_airflow_connections_and_hooks to 2024-04-05T00:00:00+00:00, run_after=2024-04-06T00:00:00+00:00
+[2024-04-05T06:28:01.884+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/play_with_airflow_connections_and_hooks.py took 0.217 seconds
+[2024-04-05T06:28:32.572+0000] {processor.py:161} INFO - Started process (PID=95) to work on /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2024-04-05T06:28:32.573+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/play_with_airflow_connections_and_hooks.py for tasks to queue
+[2024-04-05T06:28:32.575+0000] {logging_mixin.py:188} INFO - [2024-04-05T06:28:32.574+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2024-04-05T06:28:32.586+0000] {processor.py:840} INFO - DAG(s) 'play_with_airflow_connections_and_hooks' retrieved from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2024-04-05T06:28:32.613+0000] {logging_mixin.py:188} INFO - [2024-04-05T06:28:32.612+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-05T06:28:32.639+0000] {logging_mixin.py:188} INFO - [2024-04-05T06:28:32.639+0000] {dag.py:3820} INFO - Setting next_dagrun for play_with_airflow_connections_and_hooks to 2024-04-05T00:00:00+00:00, run_after=2024-04-06T00:00:00+00:00
+[2024-04-05T06:28:32.662+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/play_with_airflow_connections_and_hooks.py took 0.093 seconds
+[2024-04-05T06:29:03.339+0000] {processor.py:161} INFO - Started process (PID=136) to work on /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2024-04-05T06:29:03.339+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/play_with_airflow_connections_and_hooks.py for tasks to queue
+[2024-04-05T06:29:03.341+0000] {logging_mixin.py:188} INFO - [2024-04-05T06:29:03.341+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2024-04-05T06:29:03.350+0000] {processor.py:840} INFO - DAG(s) 'play_with_airflow_connections_and_hooks' retrieved from /opt/airflow/dags/play_with_airflow_connections_and_hooks.py
+[2024-04-05T06:29:03.375+0000] {logging_mixin.py:188} INFO - [2024-04-05T06:29:03.375+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-04-05T06:29:03.398+0000] {logging_mixin.py:188} INFO - [2024-04-05T06:29:03.398+0000] {dag.py:3820} INFO - Setting next_dagrun for play_with_airflow_connections_and_hooks to 2024-04-05T00:00:00+00:00, run_after=2024-04-06T00:00:00+00:00
+[2024-04-05T06:29:03.418+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/play_with_airflow_connections_and_hooks.py took 0.082 seconds

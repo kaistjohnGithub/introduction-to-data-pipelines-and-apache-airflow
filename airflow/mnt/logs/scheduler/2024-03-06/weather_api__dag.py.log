@@ -1,0 +1,2074 @@
+[2024-03-06T04:56:16.117+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T04:56:16.118+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T04:56:16.119+0000] {logging_mixin.py:188} INFO - [2024-03-06T04:56:16.118+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T04:56:16.158+0000] {logging_mixin.py:188} INFO - [2024-03-06T04:56:16.140+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T04:56:16.162+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T04:56:16.232+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.183 seconds
+[2024-03-06T04:56:46.676+0000] {processor.py:161} INFO - Started process (PID=216) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T04:56:46.676+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T04:56:46.677+0000] {logging_mixin.py:188} INFO - [2024-03-06T04:56:46.677+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T04:56:46.679+0000] {logging_mixin.py:188} INFO - [2024-03-06T04:56:46.679+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T04:56:46.679+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T04:56:46.700+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.027 seconds
+[2024-03-06T04:57:17.039+0000] {processor.py:161} INFO - Started process (PID=258) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T04:57:17.040+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T04:57:17.041+0000] {logging_mixin.py:188} INFO - [2024-03-06T04:57:17.041+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T04:57:17.044+0000] {logging_mixin.py:188} INFO - [2024-03-06T04:57:17.043+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T04:57:17.044+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T04:57:17.070+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.034 seconds
+[2024-03-06T04:57:47.558+0000] {processor.py:161} INFO - Started process (PID=308) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T04:57:47.561+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T04:57:47.568+0000] {logging_mixin.py:188} INFO - [2024-03-06T04:57:47.567+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T04:57:47.571+0000] {logging_mixin.py:188} INFO - [2024-03-06T04:57:47.570+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T04:57:47.572+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T04:57:47.609+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.055 seconds
+[2024-03-06T04:58:17.917+0000] {processor.py:161} INFO - Started process (PID=350) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T04:58:17.918+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T04:58:17.919+0000] {logging_mixin.py:188} INFO - [2024-03-06T04:58:17.918+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T04:58:17.922+0000] {logging_mixin.py:188} INFO - [2024-03-06T04:58:17.921+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T04:58:17.923+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T04:58:17.950+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.036 seconds
+[2024-03-06T04:58:48.268+0000] {processor.py:161} INFO - Started process (PID=391) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T04:58:48.269+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T04:58:48.270+0000] {logging_mixin.py:188} INFO - [2024-03-06T04:58:48.270+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T04:58:48.274+0000] {logging_mixin.py:188} INFO - [2024-03-06T04:58:48.273+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T04:58:48.274+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T04:58:48.304+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.039 seconds
+[2024-03-06T04:59:18.741+0000] {processor.py:161} INFO - Started process (PID=440) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T04:59:18.741+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T04:59:18.742+0000] {logging_mixin.py:188} INFO - [2024-03-06T04:59:18.742+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T04:59:18.745+0000] {logging_mixin.py:188} INFO - [2024-03-06T04:59:18.744+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T04:59:18.745+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T04:59:18.774+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.037 seconds
+[2024-03-06T04:59:49.072+0000] {processor.py:161} INFO - Started process (PID=481) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T04:59:49.073+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T04:59:49.074+0000] {logging_mixin.py:188} INFO - [2024-03-06T04:59:49.074+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T04:59:49.077+0000] {logging_mixin.py:188} INFO - [2024-03-06T04:59:49.076+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T04:59:49.077+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T04:59:49.110+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.041 seconds
+[2024-03-06T05:00:19.511+0000] {processor.py:161} INFO - Started process (PID=531) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:00:19.512+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:00:19.513+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:00:19.513+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:00:19.516+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:00:19.516+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:00:19.524+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:00:19.567+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.060 seconds
+[2024-03-06T05:00:49.950+0000] {processor.py:161} INFO - Started process (PID=572) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:00:49.951+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:00:49.952+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:00:49.952+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:00:49.955+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:00:49.955+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:00:49.956+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:00:49.983+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.037 seconds
+[2024-03-06T05:01:20.345+0000] {processor.py:161} INFO - Started process (PID=613) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:01:20.346+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:01:20.347+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:01:20.347+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:01:20.350+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:01:20.349+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:01:20.350+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:01:20.379+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.038 seconds
+[2024-03-06T05:01:50.745+0000] {processor.py:161} INFO - Started process (PID=662) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:01:50.746+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:01:50.747+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:01:50.746+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:01:50.750+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:01:50.749+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:01:50.752+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:01:50.782+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.041 seconds
+[2024-03-06T05:02:21.080+0000] {processor.py:161} INFO - Started process (PID=703) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:02:21.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:02:21.082+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:02:21.082+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:02:21.085+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:02:21.084+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:02:21.085+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:02:21.111+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.034 seconds
+[2024-03-06T05:02:51.471+0000] {processor.py:161} INFO - Started process (PID=744) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:02:51.472+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:02:51.473+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:02:51.473+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:02:51.476+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:02:51.475+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:02:51.476+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:02:51.515+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.047 seconds
+[2024-03-06T05:03:21.960+0000] {processor.py:161} INFO - Started process (PID=793) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:03:21.961+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:03:21.961+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:03:21.961+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:03:21.964+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:03:21.964+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:03:21.965+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:03:21.992+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.035 seconds
+[2024-03-06T05:03:52.321+0000] {processor.py:161} INFO - Started process (PID=834) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:03:52.322+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:03:52.323+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:03:52.323+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:03:52.327+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:03:52.326+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:03:52.328+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:03:52.355+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.038 seconds
+[2024-03-06T05:04:22.713+0000] {processor.py:161} INFO - Started process (PID=885) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:04:22.715+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:04:22.716+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:04:22.715+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:04:22.718+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:04:22.718+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:04:22.719+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:04:22.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.053 seconds
+[2024-03-06T05:04:53.163+0000] {processor.py:161} INFO - Started process (PID=926) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:04:53.164+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:04:53.165+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:04:53.165+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:04:53.169+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:04:53.168+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:04:53.169+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:04:53.197+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.037 seconds
+[2024-03-06T05:05:23.512+0000] {processor.py:161} INFO - Started process (PID=968) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:05:23.512+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:05:23.513+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:05:23.513+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:05:23.516+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:05:23.515+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:05:23.516+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:05:23.547+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.039 seconds
+[2024-03-06T05:05:54.066+0000] {processor.py:161} INFO - Started process (PID=1018) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:05:54.067+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:05:54.068+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:05:54.068+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:05:54.071+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:05:54.070+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:05:54.072+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:05:54.098+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.036 seconds
+[2024-03-06T05:06:24.418+0000] {processor.py:161} INFO - Started process (PID=1059) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:06:24.419+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:06:24.420+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:06:24.419+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:06:24.423+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:06:24.422+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:06:24.423+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:06:24.452+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.038 seconds
+[2024-03-06T05:06:54.844+0000] {processor.py:161} INFO - Started process (PID=1110) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:06:54.845+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:06:54.846+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:06:54.846+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:06:54.849+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:06:54.848+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:06:54.849+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:06:54.876+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.036 seconds
+[2024-03-06T05:07:25.292+0000] {processor.py:161} INFO - Started process (PID=1153) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:07:25.293+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:07:25.294+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:07:25.294+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:07:25.297+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:07:25.296+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:07:25.298+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:07:25.325+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.038 seconds
+[2024-03-06T05:07:55.646+0000] {processor.py:161} INFO - Started process (PID=1195) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:07:55.647+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:07:55.648+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:07:55.648+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:07:55.651+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:07:55.651+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:07:55.652+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:07:55.678+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.035 seconds
+[2024-03-06T05:08:26.090+0000] {processor.py:161} INFO - Started process (PID=1246) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:08:26.099+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:08:26.100+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:08:26.100+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:08:26.105+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:08:26.103+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:08:26.105+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:08:26.159+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.072 seconds
+[2024-03-06T05:08:56.519+0000] {processor.py:161} INFO - Started process (PID=1288) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:08:56.520+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:08:56.522+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:08:56.522+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:08:56.529+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:08:56.529+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:08:56.530+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:08:56.580+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.064 seconds
+[2024-03-06T05:09:26.881+0000] {processor.py:161} INFO - Started process (PID=1329) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:09:26.882+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:09:26.883+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:09:26.882+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:09:26.885+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:09:26.885+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:09:26.886+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:09:26.931+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.053 seconds
+[2024-03-06T05:09:57.329+0000] {processor.py:161} INFO - Started process (PID=1380) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:09:57.332+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:09:57.333+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:09:57.333+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:09:57.336+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:09:57.335+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:09:57.337+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:09:57.368+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.042 seconds
+[2024-03-06T05:10:27.686+0000] {processor.py:161} INFO - Started process (PID=1422) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:10:27.687+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:10:27.688+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:10:27.688+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:10:27.691+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:10:27.690+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:10:27.692+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:10:27.722+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.039 seconds
+[2024-03-06T05:10:58.074+0000] {processor.py:161} INFO - Started process (PID=1472) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:10:58.075+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:10:58.087+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:10:58.087+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:10:58.090+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:10:58.090+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:10:58.091+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:10:58.136+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.065 seconds
+[2024-03-06T05:11:28.664+0000] {processor.py:161} INFO - Started process (PID=1513) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:11:28.665+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:11:28.666+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:11:28.666+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:11:28.669+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:11:28.668+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:11:28.669+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:11:28.697+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.036 seconds
+[2024-03-06T05:11:59.098+0000] {processor.py:161} INFO - Started process (PID=1555) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:11:59.099+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:11:59.101+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:11:59.101+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:11:59.104+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:11:59.103+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:11:59.104+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:11:59.130+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.035 seconds
+[2024-03-06T05:12:29.565+0000] {processor.py:161} INFO - Started process (PID=1605) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:12:29.566+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:12:29.567+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:12:29.567+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:12:29.570+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:12:29.570+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:12:29.571+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:12:29.601+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.040 seconds
+[2024-03-06T05:12:59.926+0000] {processor.py:161} INFO - Started process (PID=1646) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:12:59.927+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:12:59.928+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:12:59.928+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:12:59.931+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:12:59.930+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:12:59.932+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:12:59.961+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.038 seconds
+[2024-03-06T05:13:30.266+0000] {processor.py:161} INFO - Started process (PID=1687) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:13:30.267+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:13:30.268+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:13:30.268+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:13:30.272+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:13:30.270+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:13:30.272+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:13:30.301+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.039 seconds
+[2024-03-06T05:14:00.725+0000] {processor.py:161} INFO - Started process (PID=1737) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:14:00.726+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:14:00.727+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:14:00.726+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:14:00.730+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:14:00.729+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:14:00.730+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:14:00.755+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.034 seconds
+[2024-03-06T05:14:31.069+0000] {processor.py:161} INFO - Started process (PID=1780) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:14:31.070+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:14:31.071+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:14:31.071+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:14:31.074+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:14:31.073+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:14:31.075+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:14:31.102+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.036 seconds
+[2024-03-06T05:15:01.526+0000] {processor.py:161} INFO - Started process (PID=1832) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:15:01.529+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:15:01.534+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:15:01.533+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:15:01.538+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:15:01.538+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:15:01.543+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:15:01.570+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.053 seconds
+[2024-03-06T05:15:31.993+0000] {processor.py:161} INFO - Started process (PID=1874) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:15:31.994+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:15:31.995+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:15:31.994+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:15:31.998+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:15:31.997+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:15:31.998+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:15:32.024+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.034 seconds
+[2024-03-06T05:16:02.324+0000] {processor.py:161} INFO - Started process (PID=1915) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:16:02.325+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:16:02.325+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:16:02.325+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:16:02.328+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:16:02.327+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:16:02.329+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:16:02.355+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.035 seconds
+[2024-03-06T05:16:32.688+0000] {processor.py:161} INFO - Started process (PID=1966) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:16:32.689+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:16:32.690+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:16:32.690+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:16:32.693+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:16:32.692+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:16:32.693+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:16:32.722+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.037 seconds
+[2024-03-06T05:17:03.029+0000] {processor.py:161} INFO - Started process (PID=2008) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:17:03.030+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:17:03.031+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:17:03.031+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:17:03.034+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:17:03.033+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:17:03.035+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:17:03.063+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.038 seconds
+[2024-03-06T05:17:33.448+0000] {processor.py:161} INFO - Started process (PID=2059) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:17:33.450+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:17:33.450+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:17:33.450+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:17:33.453+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:17:33.452+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:17:33.455+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:17:33.490+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.045 seconds
+[2024-03-06T05:18:04.142+0000] {processor.py:161} INFO - Started process (PID=2100) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:18:04.143+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:18:04.144+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:18:04.144+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:18:04.147+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:18:04.146+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:18:04.147+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:18:04.173+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.034 seconds
+[2024-03-06T05:18:34.490+0000] {processor.py:161} INFO - Started process (PID=2142) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:18:34.491+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:18:34.492+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:18:34.492+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:18:34.495+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:18:34.495+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:18:34.496+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:18:34.536+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.049 seconds
+[2024-03-06T05:19:04.901+0000] {processor.py:161} INFO - Started process (PID=2194) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:19:04.902+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:19:04.903+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:19:04.902+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:19:04.906+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:19:04.905+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:19:04.906+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:19:04.932+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.035 seconds
+[2024-03-06T05:19:35.274+0000] {processor.py:161} INFO - Started process (PID=2236) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:19:35.275+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:19:35.276+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:19:35.275+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:19:35.279+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:19:35.279+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:19:35.280+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:19:35.311+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.040 seconds
+[2024-03-06T05:20:05.643+0000] {processor.py:161} INFO - Started process (PID=2286) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:20:05.646+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:20:05.648+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:20:05.647+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:20:05.652+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:20:05.651+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:20:05.654+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:20:05.679+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.040 seconds
+[2024-03-06T05:20:36.188+0000] {processor.py:161} INFO - Started process (PID=2331) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:20:36.189+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:20:36.190+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:20:36.190+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:20:36.193+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:20:36.192+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:20:36.194+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:20:36.221+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.037 seconds
+[2024-03-06T05:21:06.559+0000] {processor.py:161} INFO - Started process (PID=2373) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:21:06.560+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:21:06.561+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:21:06.560+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:21:06.563+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:21:06.563+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:21:06.564+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:21:06.590+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.034 seconds
+[2024-03-06T05:21:36.984+0000] {processor.py:161} INFO - Started process (PID=2424) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:21:36.985+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:21:36.986+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:21:36.986+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:21:36.989+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:21:36.988+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:21:36.990+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:21:37.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.035 seconds
+[2024-03-06T05:22:07.364+0000] {processor.py:161} INFO - Started process (PID=2465) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:22:07.365+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:22:07.366+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:22:07.366+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:22:07.369+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:22:07.369+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:22:07.370+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:22:07.397+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.036 seconds
+[2024-03-06T05:22:37.765+0000] {processor.py:161} INFO - Started process (PID=2515) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:22:37.767+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:22:37.768+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:22:37.768+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:22:37.772+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:22:37.771+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:22:37.787+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:22:37.818+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.057 seconds
+[2024-03-06T05:23:08.342+0000] {processor.py:161} INFO - Started process (PID=2558) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:23:08.343+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:23:08.344+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:23:08.344+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:23:08.348+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:23:08.347+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:23:08.348+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:23:08.382+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.044 seconds
+[2024-03-06T05:23:38.688+0000] {processor.py:161} INFO - Started process (PID=2600) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:23:38.689+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:23:38.690+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:23:38.690+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:23:38.693+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:23:38.692+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:23:38.693+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:23:38.722+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.037 seconds
+[2024-03-06T05:24:09.077+0000] {processor.py:161} INFO - Started process (PID=2651) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:24:09.078+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:24:09.079+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:24:09.079+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:24:09.083+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:24:09.082+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:24:09.083+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:24:09.147+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.074 seconds
+[2024-03-06T05:24:39.511+0000] {processor.py:161} INFO - Started process (PID=2692) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:24:39.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:24:39.512+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:24:39.512+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:24:39.515+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:24:39.514+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:24:39.515+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:24:39.542+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.034 seconds
+[2024-03-06T05:25:09.836+0000] {processor.py:161} INFO - Started process (PID=2733) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:25:09.837+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:25:09.837+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:25:09.837+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:25:09.841+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:25:09.840+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:25:09.841+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:25:09.867+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.034 seconds
+[2024-03-06T05:25:40.248+0000] {processor.py:161} INFO - Started process (PID=2784) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:25:40.249+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:25:40.250+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:25:40.250+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:25:40.253+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:25:40.252+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:25:40.254+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:25:40.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.040 seconds
+[2024-03-06T05:26:10.596+0000] {processor.py:161} INFO - Started process (PID=2825) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:26:10.597+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:26:10.598+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:26:10.598+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:26:10.601+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:26:10.600+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:26:10.601+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:26:10.635+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.042 seconds
+[2024-03-06T05:26:41.077+0000] {processor.py:161} INFO - Started process (PID=2876) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:26:41.087+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:26:41.088+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:26:41.088+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:26:41.106+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:26:41.105+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:26:41.106+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:26:41.140+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.067 seconds
+[2024-03-06T05:27:11.669+0000] {processor.py:161} INFO - Started process (PID=2917) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:27:11.670+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:27:11.674+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:27:11.674+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:27:11.678+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:27:11.677+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:27:11.681+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:27:11.711+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.046 seconds
+[2024-03-06T05:27:42.052+0000] {processor.py:161} INFO - Started process (PID=2959) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:27:42.052+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:27:42.053+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:27:42.053+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:27:42.056+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:27:42.056+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:27:42.057+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:27:42.084+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.036 seconds
+[2024-03-06T05:28:12.403+0000] {processor.py:161} INFO - Started process (PID=3011) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:28:12.404+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T05:28:12.405+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:28:12.404+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:28:12.408+0000] {logging_mixin.py:188} INFO - [2024-03-06T05:28:12.407+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T05:28:12.408+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T05:28:12.435+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.035 seconds
+[2024-03-06T09:39:01.762+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:39:01.767+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:39:01.768+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:39:01.767+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:39:01.794+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:39:01.780+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:39:01.794+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:39:01.865+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.117 seconds
+[2024-03-06T09:39:32.524+0000] {processor.py:161} INFO - Started process (PID=212) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:39:32.525+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:39:32.526+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:39:32.526+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:39:32.529+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:39:32.528+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:39:32.529+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:39:32.554+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.033 seconds
+[2024-03-06T09:40:02.921+0000] {processor.py:161} INFO - Started process (PID=255) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:40:02.921+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:40:02.922+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:40:02.922+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:40:02.925+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:40:02.924+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:40:02.925+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:40:02.951+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.033 seconds
+[2024-03-06T09:40:33.309+0000] {processor.py:161} INFO - Started process (PID=307) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:40:33.310+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:40:33.311+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:40:33.311+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:40:33.314+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:40:33.313+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:40:33.314+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:40:33.339+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.033 seconds
+[2024-03-06T09:41:03.696+0000] {processor.py:161} INFO - Started process (PID=349) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:41:03.696+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:41:03.697+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:41:03.697+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:41:03.700+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:41:03.699+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:41:03.700+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:41:03.726+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.034 seconds
+[2024-03-06T09:41:34.087+0000] {processor.py:161} INFO - Started process (PID=398) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:41:34.089+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:41:34.090+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:41:34.089+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:41:34.092+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:41:34.092+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:41:34.093+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:41:34.118+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.034 seconds
+[2024-03-06T09:42:04.476+0000] {processor.py:161} INFO - Started process (PID=441) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:42:04.477+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:42:04.477+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:42:04.477+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:42:04.481+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:42:04.479+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:42:04.481+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:42:04.508+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.035 seconds
+[2024-03-06T09:42:34.895+0000] {processor.py:161} INFO - Started process (PID=491) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:42:34.896+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:42:34.897+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:42:34.897+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:42:34.900+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:42:34.899+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:42:34.900+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:42:34.949+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.057 seconds
+[2024-03-06T09:43:05.372+0000] {processor.py:161} INFO - Started process (PID=533) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:43:05.373+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:43:05.374+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:43:05.373+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:43:05.384+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:43:05.380+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:43:05.384+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:43:05.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.053 seconds
+[2024-03-06T09:43:35.791+0000] {processor.py:161} INFO - Started process (PID=582) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:43:35.801+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:43:35.802+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:43:35.802+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:43:35.805+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:43:35.804+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:43:35.805+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:43:35.843+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.056 seconds
+[2024-03-06T09:44:06.300+0000] {processor.py:161} INFO - Started process (PID=625) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:44:06.300+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:44:06.301+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:44:06.301+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:44:06.304+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:44:06.303+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:44:06.305+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:44:06.336+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.041 seconds
+[2024-03-06T09:44:36.738+0000] {processor.py:161} INFO - Started process (PID=666) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:44:36.739+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:44:36.740+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:44:36.740+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:44:36.742+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:44:36.742+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:44:36.743+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:44:36.769+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.035 seconds
+[2024-03-06T09:45:07.245+0000] {processor.py:161} INFO - Started process (PID=717) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:45:07.246+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:45:07.247+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:45:07.246+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:45:07.249+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:45:07.249+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:45:07.250+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:45:07.294+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.052 seconds
+[2024-03-06T09:45:37.707+0000] {processor.py:161} INFO - Started process (PID=758) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:45:37.708+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:45:37.709+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:45:37.709+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:45:37.712+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:45:37.711+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:45:37.712+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:45:37.739+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.035 seconds
+[2024-03-06T09:46:08.143+0000] {processor.py:161} INFO - Started process (PID=808) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:46:08.155+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:46:08.156+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:46:08.156+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:46:08.162+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:46:08.158+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:46:08.162+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:46:08.205+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.066 seconds
+[2024-03-06T09:46:38.690+0000] {processor.py:161} INFO - Started process (PID=849) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:46:38.691+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:46:38.691+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:46:38.691+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:46:38.694+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:46:38.693+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:46:38.694+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:46:38.721+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.035 seconds
+[2024-03-06T09:47:09.097+0000] {processor.py:161} INFO - Started process (PID=892) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:47:09.098+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:47:09.099+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:47:09.099+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:47:09.102+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:47:09.101+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:47:09.102+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:47:09.131+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.038 seconds
+[2024-03-06T09:47:39.605+0000] {processor.py:161} INFO - Started process (PID=943) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:47:39.606+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:47:39.607+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:47:39.606+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:47:39.609+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:47:39.609+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:47:39.610+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:47:39.637+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.036 seconds
+[2024-03-06T09:48:10.000+0000] {processor.py:161} INFO - Started process (PID=986) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:48:10.001+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:48:10.002+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:48:10.001+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:48:10.004+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:48:10.004+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:48:10.005+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:48:10.033+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.036 seconds
+[2024-03-06T09:48:40.399+0000] {processor.py:161} INFO - Started process (PID=1035) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:48:40.400+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:48:40.400+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:48:40.400+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:48:40.403+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:48:40.402+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:48:40.403+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:48:40.430+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.034 seconds
+[2024-03-06T09:49:10.804+0000] {processor.py:161} INFO - Started process (PID=1076) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:49:10.805+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:49:10.806+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:49:10.806+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:49:10.809+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:49:10.808+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:49:10.809+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:49:10.835+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.034 seconds
+[2024-03-06T09:49:41.221+0000] {processor.py:161} INFO - Started process (PID=1127) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:49:41.222+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:49:41.222+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:49:41.222+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:49:41.225+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:49:41.224+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:49:41.225+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:49:41.250+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.033 seconds
+[2024-03-06T09:50:11.620+0000] {processor.py:161} INFO - Started process (PID=1168) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:50:11.621+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:50:11.622+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:50:11.622+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:50:11.625+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:50:11.624+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:50:11.625+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:50:11.649+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.032 seconds
+[2024-03-06T09:50:42.031+0000] {processor.py:161} INFO - Started process (PID=1218) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:50:42.036+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:50:42.036+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:50:42.036+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:50:42.039+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:50:42.038+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:50:42.039+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:50:42.073+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.045 seconds
+[2024-03-06T09:51:12.580+0000] {processor.py:161} INFO - Started process (PID=1259) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:51:12.581+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:51:12.581+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:51:12.581+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:51:12.584+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:51:12.583+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:51:12.584+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:51:12.611+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.034 seconds
+[2024-03-06T09:51:42.993+0000] {processor.py:161} INFO - Started process (PID=1301) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:51:42.994+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:51:42.994+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:51:42.994+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:51:42.997+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:51:42.996+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:51:42.998+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:51:43.024+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.034 seconds
+[2024-03-06T09:52:13.454+0000] {processor.py:161} INFO - Started process (PID=1351) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:52:13.454+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:52:13.455+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:52:13.455+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:52:13.458+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:52:13.457+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:52:13.458+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:52:13.483+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.033 seconds
+[2024-03-06T09:52:43.840+0000] {processor.py:161} INFO - Started process (PID=1393) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:52:43.841+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:52:43.841+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:52:43.841+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:52:43.844+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:52:43.843+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:52:43.844+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:52:43.869+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.033 seconds
+[2024-03-06T09:53:14.234+0000] {processor.py:161} INFO - Started process (PID=1444) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:53:14.234+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:53:14.235+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:53:14.235+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:53:14.238+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:53:14.238+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:53:14.239+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:53:14.265+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.034 seconds
+[2024-03-06T09:53:44.624+0000] {processor.py:161} INFO - Started process (PID=1486) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:53:44.626+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:53:44.626+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:53:44.626+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:53:44.629+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:53:44.628+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:53:44.629+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:53:44.657+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.036 seconds
+[2024-03-06T09:54:15.056+0000] {processor.py:161} INFO - Started process (PID=1537) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:54:15.056+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:54:15.057+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:54:15.057+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:54:15.060+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:54:15.059+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:54:15.060+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:54:15.088+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.036 seconds
+[2024-03-06T09:54:45.458+0000] {processor.py:161} INFO - Started process (PID=1579) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:54:45.460+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:54:45.460+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:54:45.460+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:54:45.465+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:54:45.463+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:54:45.466+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:54:45.519+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.067 seconds
+[2024-03-06T09:55:15.893+0000] {processor.py:161} INFO - Started process (PID=1630) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:55:15.894+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:55:15.896+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:55:15.896+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:55:15.902+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:55:15.901+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:55:15.902+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:55:15.943+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.055 seconds
+[2024-03-06T09:55:46.553+0000] {processor.py:161} INFO - Started process (PID=1674) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:55:46.554+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:55:46.555+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:55:46.555+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:55:46.558+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:55:46.557+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:55:46.558+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:55:46.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.035 seconds
+[2024-03-06T09:56:17.095+0000] {processor.py:161} INFO - Started process (PID=1723) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:56:17.096+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:56:17.097+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:56:17.097+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:56:17.100+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:56:17.099+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:56:17.100+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:56:17.132+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.040 seconds
+[2024-03-06T09:56:47.778+0000] {processor.py:161} INFO - Started process (PID=1765) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:56:47.782+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:56:47.783+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:56:47.783+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:56:47.785+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:56:47.785+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:56:47.786+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:56:47.814+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.040 seconds
+[2024-03-06T09:57:18.298+0000] {processor.py:161} INFO - Started process (PID=1809) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:57:18.299+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:57:18.300+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:57:18.300+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:57:18.302+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:57:18.302+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:57:18.303+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:57:18.330+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.035 seconds
+[2024-03-06T09:57:48.703+0000] {processor.py:161} INFO - Started process (PID=1859) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:57:48.704+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:57:48.705+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:57:48.704+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:57:48.707+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:57:48.707+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:57:48.708+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:57:48.733+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.033 seconds
+[2024-03-06T09:58:19.113+0000] {processor.py:161} INFO - Started process (PID=1902) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:58:19.113+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:58:19.114+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:58:19.114+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:58:19.117+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:58:19.116+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:58:19.117+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:58:19.143+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.033 seconds
+[2024-03-06T09:58:49.515+0000] {processor.py:161} INFO - Started process (PID=1952) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:58:49.515+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:58:49.516+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:58:49.516+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:58:49.519+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:58:49.518+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:58:49.519+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:58:49.545+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.034 seconds
+[2024-03-06T09:59:19.906+0000] {processor.py:161} INFO - Started process (PID=1994) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:59:19.907+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:59:19.908+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:59:19.907+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:59:19.910+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:59:19.910+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:59:19.911+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:59:19.937+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.035 seconds
+[2024-03-06T09:59:50.318+0000] {processor.py:161} INFO - Started process (PID=2044) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:59:50.327+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T09:59:50.328+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:59:50.328+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:59:50.331+0000] {logging_mixin.py:188} INFO - [2024-03-06T09:59:50.330+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T09:59:50.331+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T09:59:50.359+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.044 seconds
+[2024-03-06T10:00:20.863+0000] {processor.py:161} INFO - Started process (PID=2086) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:00:20.864+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T10:00:20.865+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:00:20.864+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:00:20.867+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:00:20.867+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T10:00:20.868+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:00:20.892+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.033 seconds
+[2024-03-06T10:00:51.279+0000] {processor.py:161} INFO - Started process (PID=2139) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:00:51.280+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T10:00:51.281+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:00:51.281+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:00:51.289+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:00:51.283+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T10:00:51.290+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:00:51.330+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.053 seconds
+[2024-03-06T10:01:21.833+0000] {processor.py:161} INFO - Started process (PID=2181) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:01:21.834+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T10:01:21.834+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:01:21.834+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:01:21.837+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:01:21.836+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T10:01:21.837+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:01:21.863+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.033 seconds
+[2024-03-06T10:01:52.232+0000] {processor.py:161} INFO - Started process (PID=2223) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:01:52.233+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T10:01:52.234+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:01:52.234+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:01:52.236+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:01:52.236+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T10:01:52.237+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:01:52.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.034 seconds
+[2024-03-06T10:02:22.632+0000] {processor.py:161} INFO - Started process (PID=2274) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:02:22.633+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T10:02:22.633+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:02:22.633+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:02:22.636+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:02:22.635+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T10:02:22.636+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:02:22.663+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.035 seconds
+[2024-03-06T10:02:53.045+0000] {processor.py:161} INFO - Started process (PID=2316) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:02:53.046+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T10:02:53.047+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:02:53.047+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:02:53.049+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:02:53.049+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T10:02:53.050+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:02:53.078+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.037 seconds
+[2024-03-06T10:03:23.503+0000] {processor.py:161} INFO - Started process (PID=2368) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:03:23.504+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T10:03:23.505+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:03:23.504+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:03:23.507+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:03:23.507+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T10:03:23.508+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:03:23.567+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.068 seconds
+[2024-03-06T10:03:53.953+0000] {processor.py:161} INFO - Started process (PID=2410) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:03:53.954+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T10:03:53.955+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:03:53.955+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:03:53.958+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:03:53.957+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T10:03:53.958+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:03:53.984+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.034 seconds
+[2024-03-06T10:04:24.378+0000] {processor.py:161} INFO - Started process (PID=2461) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:04:24.379+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T10:04:24.379+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:04:24.379+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:04:24.382+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:04:24.381+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T10:04:24.382+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:04:24.416+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.041 seconds
+[2024-03-06T10:04:54.799+0000] {processor.py:161} INFO - Started process (PID=2502) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:04:54.799+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T10:04:54.800+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:04:54.800+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:04:54.804+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:04:54.803+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T10:04:54.804+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:04:54.830+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.035 seconds
+[2024-03-06T10:05:25.238+0000] {processor.py:161} INFO - Started process (PID=2553) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:05:25.239+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T10:05:25.240+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:05:25.239+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:05:25.242+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:05:25.241+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T10:05:25.243+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:05:25.284+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.050 seconds
+[2024-03-06T10:05:55.722+0000] {processor.py:161} INFO - Started process (PID=2596) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:05:55.723+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T10:05:55.724+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:05:55.724+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:05:55.727+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:05:55.726+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T10:05:55.727+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:05:55.753+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.034 seconds
+[2024-03-06T10:06:26.112+0000] {processor.py:161} INFO - Started process (PID=2639) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:06:26.113+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T10:06:26.114+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:06:26.113+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:06:26.116+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:06:26.115+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T10:06:26.116+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:06:26.143+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.035 seconds
+[2024-03-06T10:06:56.508+0000] {processor.py:161} INFO - Started process (PID=2690) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:06:56.509+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T10:06:56.510+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:06:56.510+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:06:56.512+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:06:56.512+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T10:06:56.513+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:06:56.540+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.035 seconds
+[2024-03-06T10:07:26.891+0000] {processor.py:161} INFO - Started process (PID=2732) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:07:26.892+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T10:07:26.892+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:07:26.892+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:07:26.895+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:07:26.894+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T10:07:26.895+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:07:26.920+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.033 seconds
+[2024-03-06T10:07:57.284+0000] {processor.py:161} INFO - Started process (PID=2783) to work on /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:07:57.285+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_api__dag.py for tasks to queue
+[2024-03-06T10:07:57.286+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:07:57.285+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:07:57.289+0000] {logging_mixin.py:188} INFO - [2024-03-06T10:07:57.287+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_api__dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_api__dag.py", line 19
+    ``
+    ^
+SyntaxError: invalid syntax
+[2024-03-06T10:07:57.290+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_api__dag.py
+[2024-03-06T10:07:57.315+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_api__dag.py took 0.035 seconds
